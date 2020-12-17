@@ -1,20 +1,3 @@
-/*
-* JANGAN UBAH-UBAH INFO!!!
-* "JANGAN MODAL NAMA DOANG BRO!!!"
-* SCRIPT BY ARIS187 ID
-* JANGAN MODAL NAMA DOANG BOSQ
-* HARGAILAH YY MEMBUAT SCRIPT INI BOSQ
-* JANGAN UBAH-UBAH INFO!!!
-* ARIS187 ID
-* BOLEH UBAH TAPI KECUALI INFO!!!
-*/
-const A187 = 'SquakBot/KayBot'; // JANGAN UBAH-UBAH INFO!!!
-const instagram = 'https://instagram.com/Lare.Haho'; // JANGAN UBAH-UBAH INFO!!!
-const nomer = 'Wa.me/+6282216285532'; // JANGAN UBAH-UBAH INFO!!!
-const aktif = 'Tergantung jaringan'; // JANGAN UBAH-UBAH INFO!!!
-const groupwhatsapp = 'Anu kayak gw bantu Kay bot saja'; // JANGAN UBAH-UBAH INFO!!!
-const youtube = 'Cari aja amboeradoel Official'; // JANGAN UBAH-UBAH INFO!!!
-//A187ID
 const qrcode = require("qrcode-terminal");
 const moment = require("moment");
 const cheerio = require("cheerio");
@@ -947,11 +930,4 @@ if (text.includes("#alay")){
 	axios.get(`https://api.terhambar.com/bpk?kata=${alay}`).then ((res) =>
 		{ let hasil = `${res.data.text}`
 		conn.sendMessage(id, hasil, MessageType.text)
-	})
-}
-
-//Tolonglah bro jangan di ubah ubah Aris187 ID
-
-
-})
-
+	
